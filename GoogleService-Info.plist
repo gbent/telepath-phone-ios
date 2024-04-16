@@ -2,35 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>221368768663-0ufgu96cel0auk4v0me863lgm252b9n2.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.221368768663-0ufgu96cel0auk4v0me863lgm252b9n2</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDJTtlRCM7IqdVUU2dSIYq2YIsTz6bqnkI</string>
+	<string>AIzaSyASNKWeQuOgdSljU3RMi2v_4fg_gIuMPD8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>221368768663</string>
+	<string>1060622684987</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.linphone.phone</string>
+	<string>ca.telepath.phone</string>
 	<key>PROJECT_ID</key>
-	<string>linphone-iphone</string>
+	<string>telepath-phone</string>
 	<key>STORAGE_BUCKET</key>
-	<string>linphone-iphone.appspot.com</string>
+	<string>telepath-phone.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:221368768663:ios:a2c822bc087b5a219431d2</string>
-	<key>DATABASE_URL</key>
-	<string>https://linphone-iphone.firebaseio.com</string>
+	<string>1:1060622684987:ios:d26b1afa192f8499ac1d1e</string>
 </dict>
 </plist>

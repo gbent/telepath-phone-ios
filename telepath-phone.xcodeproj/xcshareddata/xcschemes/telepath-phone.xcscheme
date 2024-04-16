@@ -17,7 +17,7 @@
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "linphone.app"
                BlueprintName = "linphone"
-               ReferencedContainer = "container:linphone.xcodeproj">
+               ReferencedContainer = "container:telepath-phone.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,7 +33,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "linphone.app"
             BlueprintName = "linphone"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            ReferencedContainer = "container:telepath-phone.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <TestPlans>
@@ -54,7 +54,7 @@
                BlueprintIdentifier = "6637AF8C288593AF00965733"
                BuildableName = "CallUITests.xctest"
                BlueprintName = "CallUITests"
-               ReferencedContainer = "container:linphone.xcodeproj">
+               ReferencedContainer = "container:telepath-phone.xcodeproj">
             </BuildableReference>
             <SkippedTests>
                <Test
@@ -75,7 +75,7 @@
                BlueprintIdentifier = "666D855B28CA1B33003560B5"
                BuildableName = "linphoneUITests.xctest"
                BlueprintName = "linphoneUITests"
-               ReferencedContainer = "container:linphone.xcodeproj">
+               ReferencedContainer = "container:telepath-phone.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "linphone.app"
             BlueprintName = "linphone"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            ReferencedContainer = "container:telepath-phone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -128,7 +128,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "linphone.app"
             BlueprintName = "linphone"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            ReferencedContainer = "container:telepath-phone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

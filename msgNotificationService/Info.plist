@@ -23,7 +23,7 @@
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.usernotifications.service</string>
+		<string>com.apple.usernotifications.content-extension</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).NotificationService</string>
 	</dict>

@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:api.on.globaltel.co</string>
+		<string>applinks:devapi.on.globaltel.co</string>
 	</array>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
@@ -26,8 +26,8 @@
 	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.ca.telepath.phone.linphoneExtension</string>
 		<string>group.ca.telepath.phone.linphone.widget</string>
+		<string>group.ca.telepath.phone.linphoneExtension</string>
 		<string>group.ca.telepath.phone.msgNotification</string>
 	</array>
 	<key>keychain-access-groups</key>

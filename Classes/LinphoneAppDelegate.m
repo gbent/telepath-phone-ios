@@ -399,7 +399,7 @@
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options{
 	NSString *scheme = [[url scheme] lowercaseString];
-	if ([scheme isEqualToString:@"linphone-config"]) {
+	if ([scheme isEqualToString:@"linphone-config"] || [[[url path] lowercaseString] containsString:@"/lp/provision"]) {
 		NSString *encodedURL =
 			[[url absoluteString] stringByReplacingOccurrencesOfString:@"linphone-config:" withString:@""];
 		self.configURL = [encodedURL stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
