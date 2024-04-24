@@ -876,6 +876,10 @@
 		C6F55647287CCFB70056E213 /* menu_voip_meeting_schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F55646287CCFB60056E213 /* menu_voip_meeting_schedule.png */; };
 		C90FAA7915AF54E6002091CB /* HistoryDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90FAA7715AF54E6002091CB /* HistoryDetailsView.m */; };
 		CC6B90352A15AEBC6CFE7B6D /* Pods_CallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F541B1DBBF37FF709FD9CA /* Pods_CallUITests.framework */; };
+		CED9BB3A2BD9931200C8DDA4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CED9BB392BD9931200C8DDA4 /* PrivacyInfo.xcprivacy */; };
+		CED9BB3B2BD9931200C8DDA4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CED9BB392BD9931200C8DDA4 /* PrivacyInfo.xcprivacy */; };
+		CED9BB3C2BD9931200C8DDA4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CED9BB392BD9931200C8DDA4 /* PrivacyInfo.xcprivacy */; };
+		CED9BB3D2BD9931200C8DDA4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CED9BB392BD9931200C8DDA4 /* PrivacyInfo.xcprivacy */; };
 		CF15F21E20E4F9A3008B1DE6 /* UIImageViewDeletable.m in Sources */ = {isa = PBXBuildFile; fileRef = CF15F21C20E4F9A3008B1DE6 /* UIImageViewDeletable.m */; };
 		CF15F21F20E4F9A3008B1DE6 /* UIImageViewDeletable.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF15F21D20E4F9A3008B1DE6 /* UIImageViewDeletable.xib */; };
 		CF1DE92D210A0F5D00A0A97E /* UILinphoneAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1DE924210A0F5A00A0A97E /* UILinphoneAudioPlayer.m */; };
@@ -2134,6 +2138,7 @@
 		CED9BB362BCEF28100C8DDA4 /* msgNotificationContentDistributionAdhoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = msgNotificationContentDistributionAdhoc.entitlements; sourceTree = "<group>"; };
 		CED9BB372BCEF2B600C8DDA4 /* msgNotificationContentDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = msgNotificationContentDebug.entitlements; sourceTree = "<group>"; };
 		CED9BB382BCEF2BE00C8DDA4 /* msgNotificationContentRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = msgNotificationContentRelease.entitlements; sourceTree = "<group>"; };
+		CED9BB392BD9931200C8DDA4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		CF15F21B20E4F9A3008B1DE6 /* UIImageViewDeletable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewDeletable.h; sourceTree = "<group>"; };
 		CF15F21C20E4F9A3008B1DE6 /* UIImageViewDeletable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageViewDeletable.m; sourceTree = "<group>"; };
 		CF15F21D20E4F9A3008B1DE6 /* UIImageViewDeletable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIImageViewDeletable.xib; sourceTree = "<group>"; };
@@ -2677,6 +2682,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB392BD9931200C8DDA4 /* PrivacyInfo.xcprivacy */,
 				CE6658B62BCC7A6F0004760E /* linphoneDistribution.entitlements */,
 				CE6658B52BCC79960004760E /* linphoneRelease.entitlements */,
 				CEC5C9652BC96FA70039A9FE /* linphoneDebug.entitlements */,
@@ -4620,6 +4626,7 @@
 				24BFAAA7209B0630004F47A7 /* callkit_logo.png in Resources */,
 				615A2811217F1FDE0060F920 /* chat_add_group@2x.png in Resources */,
 				D34F6F9E1594D3FB0095705B /* InAppSettings.bundle in Resources */,
+				CED9BB3A2BD9931200C8DDA4 /* PrivacyInfo.xcprivacy in Resources */,
 				633FEE4D1D3CD5590014B822 /* delete_field_default@2x.png in Resources */,
 				C63F72D9285A2F1E0066163B /* voip_earpiece.png in Resources */,
 				615A28362180720D0060F920 /* security_toogle_background_grey@2x.png in Resources */,
@@ -4984,6 +4991,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED9BB3B2BD9931200C8DDA4 /* PrivacyInfo.xcprivacy in Resources */,
 				61AE365220C00B370089D9D3 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4999,6 +5007,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED9BB3C2BD9931200C8DDA4 /* PrivacyInfo.xcprivacy in Resources */,
 				EA88A407242A6235007FEC61 /* Localizable.strings in Resources */,
 				6112A01E243B5FD500DBD5F5 /* GoogleService-Info.plist in Resources */,
 			);
@@ -5010,6 +5019,7 @@
 			files = (
 				EA88F3AF241BD1F700E66528 /* MainInterface.storyboard in Resources */,
 				EA88A405242A6216007FEC61 /* Localizable.strings in Resources */,
+				CED9BB3D2BD9931200C8DDA4 /* PrivacyInfo.xcprivacy in Resources */,
 				6112A01C243B31A700DBD5F5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
