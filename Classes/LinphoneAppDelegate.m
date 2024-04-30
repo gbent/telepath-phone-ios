@@ -476,7 +476,14 @@
 		}];
 
 	}
-	
+    else if ([userActivity.activityType isEqualToString:@"NSUserActivityTypeBrowsingWeb"]) { // config URI handler.
+        LOGI(@"%@", userActivity.webpageURL.path);
+        NSDictionary *nsDic = @{};
+        [self application:(application) openURL:(userActivity.webpageURL) options:(nsDic)];
+    }
+    else {
+        LOGI(@"%@", userActivity.activityType);
+    }
 	return YES;
 }
 
