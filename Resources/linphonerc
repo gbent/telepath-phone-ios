@@ -21,8 +21,8 @@ use_callkit=1
 use_in_app_file_viewer_for_non_encrypted_files=0
 unexpected_pushkit=0
 force_lime_chat_rooms=0
-disable_chat_feature=0
-disable_video_feature=0
+disable_chat_feature=1
+disable_video_feature=1
 
 enable_native_address_book=1
 read_only_native_address_book=0
